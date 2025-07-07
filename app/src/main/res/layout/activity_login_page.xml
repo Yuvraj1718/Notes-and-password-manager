@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_page"
+    android:background="@drawable/login_splash_bg"
+    >
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/videoViewLoginPage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        />
+    <RelativeLayout
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/googleLogInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:background="@drawable/google_signin_button_bg"
+            android:contentDescription="google login buuton"
+            tools:ignore="InvalidId" />
+    </RelativeLayout>
+
+</RelativeLayout>

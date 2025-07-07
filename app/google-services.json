@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "935903966530",
+    "project_id": "notes-and-password-manager-99",
+    "storage_bucket": "notes-and-password-manager-99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935903966530:android:92004cdb90a9dceb2204db",
+        "android_client_info": {
+          "package_name": "com.example.notes_tab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935903966530-2gph48sl3nn3p01og1k8s5h886uh4f8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notes_tab",
+            "certificate_hash": "a127f41f7e2d0ab7dc5d587b63bdddcf8a3f9bdf"
+          }
+        },
+        {
+          "client_id": "935903966530-q0oqatot5dlj48l5k0j648ud92kpu14v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmdJWKMjVyzg5ZVi16AnkOE-W6zT-oiaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935903966530-q0oqatot5dlj48l5k0j648ud92kpu14v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">notes_tab</string>
+    <string name="generate_new_password">Generate new password</string>
+    <string name="website_username">Website/Username:</string>
+    <string name="placeholder">placeholder</string>
+    <string name="password">Password:</string>
+    <string name="empty_password_list">Empty password list</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".NewNoteActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#E4E4D5"
+        android:id="@+id/cardViewNotes">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#6699FF"
+            android:layout_gravity="right"
+            android:id="@+id/saveNoteButton"
+            android:layout_marginRight="15dp"
+            app:cornerRadius="15dp"
+
+
+            android:text="Save" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/new_note_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000000"
+                android:text="Title"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/EnterNoteTitle"
+                android:layout_height="48dp"
+                android:layout_margin="15dp"
+                android:maxLines="2"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:hint="Enter Title of the Note" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#050505"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Content"
+                android:textSize="25dp"
+
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:id="@+id/EnterNoteContent"
+                android:layout_margin="15dp"
+                android:background="@android:color/transparent"
+                android:hint="Enter Content of the Note"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:maxLines="2000"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
